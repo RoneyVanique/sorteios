@@ -34,7 +34,7 @@ Como fazer a auditoria do sorteio?
     <div class="container">
         <form name="sorteio">
             <!-- Para modificar o logotipo, modifique o atributo "src" da linha abaixo -->
-            <img src="logo.png" alt="Logo" class="img" width="210px">
+            <img src="logo.png" alt="Logo" class="img" width="220px">
             <h1 class="text-center">Sistema de sorteio eletrônico</h1>
             <div class="form-group">
                 <label">Nome do sorteio *</label>
@@ -53,9 +53,17 @@ Como fazer a auditoria do sorteio?
             <div class="form-group mt-2 mb-2">
                 <div class="col">
                     <input type="checkbox" class="form-check-input" name="sementeManual">
-                    
+                    <label class="form-check-label">Inserir semente manualmente <i>(Utilizado para auditoria)</i>
+                    </label>
                 </div>
             </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label>Semente</label>
+                    <input type="text" name="semente" class="form-control" disabled>
+                </div>
+            </div>
+            <p><i>* Campos obrigatórios</i></p>
             <input id="button" class="btn btn-primary" type="button" value="Gerar Lista">
         </form>
         <div id="resultado" class="mt-3">
