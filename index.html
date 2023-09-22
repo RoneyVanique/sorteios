@@ -9,10 +9,18 @@
   ____) | (_) | |  | ||  __/ | (_) | | |____| |  __/ |_| | | (_) | | | | | (_| (_) |
  |_____/ \___/|_|   \__\___|_|\___/  |______|_|\___|\__|_|  \___/|_| |_|_|\___\___/ 
                                                                                                                                                             
+BASEADO NO SISTEMA DISPONIBILIZADO PELO INSTITUTO FEDERAL DE SANTA CATARINA - DEPARTAMENTO DE INGRESSO
+Link para mais informações: https://www.ifsc.edu.br/sorteio-publico
+Autores: Antonielly Garcia Rodrigues, Alex Helder Cordeiro de Oliveira | 01/2011
+Nova versão: Isaac D'Césares | 07/2020
 Biblioteca utilizada para semente de randomicidade</b>: https://github.com/davidbau/seedrandom | Copyright 2019 David Bau.
+
 Como fazer a auditoria do sorteio?
+- Copie a semente utilizada para o sorteio e que foi disponibilizada na geração da lista;
 - Acesse o sistema de sorteio;
 - Preencha as informações de Nome do sorteio, Total de Inscritos e Vagas exatamente como o que foi publicado na listagem oficial disponibilizada;
+- Clique na opção Inserir semente manualmente;
+- Cole a semente que foi copiada anteriormente;
 - Clique em Gerar Lista;
 - Verifique os resultados obtidos com os resultados disponibilizados.
 -->
@@ -33,7 +41,7 @@ Como fazer a auditoria do sorteio?
     <div class="container">
         <form name="sorteio">
             <!-- Para modificar o logotipo, modifique o atributo "src" da linha abaixo -->
-            <img src="logo.png" alt="Logo" class="img" width="160px">
+            <img src="logo.png" alt="Logo" class="img" width="300px">
             <h1 class="text-center">Sistema de sorteio eletrônico</h1>
             <div class="form-group">
                 <label">Nome do sorteio *</label>
@@ -66,6 +74,8 @@ Como fazer a auditoria do sorteio?
             <input id="button" class="btn btn-primary" type="button" value="Gerar Lista">
         </form>
         <div id="resultado" class="mt-3">
+        </div>
+        <div id="informacao" class="mt-3">
         </div>
     </div>
 </body>
