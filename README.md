@@ -1,16 +1,5 @@
 # 🎲 **Sorteio**
 
-**BASEADO NO SISTEMA DISPONIBILIZADO PELO INSTITUTO FEDERAL DE SANTA CATARINA - DEPARTAMENTO DE INGRESSO** 
-Link para mais informações: [https://www.ifsc.edu.br/sorteio-publico](https://www.ifsc.edu.br/sorteio-publico)
-
-**Autor:** Antonielly Garcia Rodrigues, Alex Helder Cordeiro de Oliveira | 01/2011
-
-**Nova versão:** Isaac D'Césares | 07/2020
-
-**Biblioteca** utilizada para semente de randomicidade: [https://github.com/davidbau/seedrandom](https://github.com/davidbau/seedrandom) | Copyright 2019 David Bau.
-
-**Clique no link para acessar o Sistema**: [https://idcesares.github.io/projects/Sistema-de-Sorteio/](https://idcesares.github.io/projects/Sistema-de-Sorteio/)
-
 ## **Objetivo**
 
 - Este sistema tem como objetivo promover um sorteio eletrônico de vagas com base em uma quantidade de inscritos.
