@@ -22,14 +22,10 @@ Como fazer a auditoria do sorteio?
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Sorteio Eletrônico</title>
-    <!-- Importando a biblioteca SeedRandom -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
     <script defer src="script.js"></script>
-    <!-- Importando o Framework CSS Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <!-- Estilos CSS personalizados para o texto -->
     <style>
         /* Mudar a cor do texto para branco (#ffffff) */
         body {
@@ -71,15 +67,12 @@ Como fazer a auditoria do sorteio?
                     <label class="form-check-label" for="sorteioCheckbox" style="color: white; font-size: 18px;">Realizar sorteio de nomes</label>
                 </div>
             </div>
-            <!-- Caixa para digitar nomes (será exibida quando a opção estiver marcada) -->
             <div id="nomesParticipantes" style="display: none;">
                 <label for="nomesSorteio" style="color: white; font-size: 18px;">Nomes dos participantes (separados por vírgula):</label>
                 <input type="text" class="form-control" name="nomesSorteio" id="nomesSorteio">
             </div>
             <div class="row mb-3">
             </div>
-           <!-- ... (código HTML existente) ... -->
-
 <div class="form-group mt-2 mb-2">
     <div class="col">
         <input type="checkbox" class="form-check-input" name="sementeManual" id="sorteioCheckbox">
